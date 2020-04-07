@@ -44,11 +44,6 @@ public class CategoriesActivity extends AppCompatActivity {
         CategoryAdapter adapter = new CategoryAdapter(list);
         recyclerView.setAdapter(adapter);
     }
-
-
-
-
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == android.R.id.home){
